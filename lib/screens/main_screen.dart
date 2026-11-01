@@ -21,7 +21,7 @@ class _MainScreenState extends State<MainScreen> {
             screen: StudentScreen(),
             item: ItemConfig(
               icon: Icon(Icons.person),
-              title: "Messages",
+              title: "Students",
               activeForegroundColor: Theme.of(context).colorScheme.onSecondaryContainer,
               inactiveForegroundColor: Theme.of(context).colorScheme.onPrimary,
             ),
@@ -30,7 +30,7 @@ class _MainScreenState extends State<MainScreen> {
             screen: MealScreen(),
             item: ItemConfig(
               icon: Icon(Icons.home),
-              title: "Home",
+              title: "Meals",
               activeForegroundColor: Theme.of(context).colorScheme.onSecondaryContainer,
               inactiveForegroundColor: Theme.of(context).colorScheme.onPrimary,
             ),

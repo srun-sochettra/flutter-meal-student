@@ -17,7 +17,7 @@ class _DetailScreenState extends ConsumerState<DetailScreen> {
     final id = ModalRoute.of(context)?.settings.arguments as String;
     final detailAsync = ref.watch(mealDetailProvider(id));
     return Scaffold(
-      appBar: AppBar(title: Text("Detail Screen")),
+      appBar: AppBar(title: Text("Meal Detail")),
       body: RefreshIndicator(
         onRefresh: () async {
           ref.invalidate(mealDetailProvider);

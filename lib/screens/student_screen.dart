@@ -44,7 +44,7 @@ class _StudentScreenState extends ConsumerState<StudentScreen> {
   }
 
   AppBar _buildAppBar() => AppBar(
-        title: const Text('Student Screen'),
+        title: const Text('Students'),
         actions: [
           IconButton(
             onPressed: () => Navigator.of(context).pushNamed('/add'),
