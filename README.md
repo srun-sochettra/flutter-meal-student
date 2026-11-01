@@ -8,6 +8,16 @@ rebuilt from the selected accent colour and light/dark mode.
 
 Built as coursework for the mobile development module at the National University of Management.
 
+## A look inside
+
+| Student roster | Meal catalogue |
+| --- | --- |
+| ![Student roster](docs/screenshots/students.png) | ![Meal catalogue](docs/screenshots/meals.png) |
+| Recipe detail | Add student |
+| ![Recipe detail](docs/screenshots/meal-detail.png) | ![Add student](docs/screenshots/add-student.png) |
+| Appearance | Dark mode |
+| ![Appearance settings](docs/screenshots/settings.png) | ![Dark mode](docs/screenshots/settings-dark.png) |
+
 ## What it does
 
 ### Meal catalogue
